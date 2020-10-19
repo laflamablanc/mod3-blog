@@ -22,10 +22,7 @@ class SimpleCalculator {
 }
 
 calc = new SimpleCalculator(8)
-calc.divide(2)   // => { value: 10 }
-  .add(2,2)   // => { value: 7 }
-  .multiply()        // => { value: 11 }
-  .value         // => 11
-
-// Console Output
-// 11
+calc.divide(2) 
+  .add(2,2)
+  .multiply()
+  .value
